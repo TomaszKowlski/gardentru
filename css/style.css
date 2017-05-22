@@ -3,6 +3,17 @@ background-color: #fff;
 font-family: 'Roboto', sans-serif;
 font-size: 62,5%;
 }
+
+* {
+-webkit-box-sizing: border-box;
+-moz-box-sizing: border-box;
+box-sizing: border-box;
+}
+
+	img {
+		max-width: 100%;
+	}
+	
 .floatfix:after {
 content:'';
 display: block;
@@ -86,6 +97,55 @@ border-bottom: 4px solid #7cb029;
 	padding: 5px 15px;
 	background: rgba(124, 176, 41, 0.8);
 }
+
+/*------------OFERTA-------------*/
+		section.contener h1 {
+			color: #7cb029;
+			font-size: 2em;
+			text-transform: uppercase;
+			margin-top: 10px;
+			margin-left: 2%;
+		}
+		
+		.box {
+			width: 29.333%;
+			float: left;
+			margin: 2%;
+			border: 1px solid #ccc;
+		}
+		
+		.box h2 {
+			padding-top: 5%;
+			padding-left: 5%;
+			font-size: 2.2em;
+			color: #000;
+		}
+		
+		.box p
+		{
+			line-height: 1.4em;
+			font-size: 1.5em;
+			color: #7d7d7d;
+			padding: 5%;
+		}
+		
+		span.readmore a {
+			display: block;
+			margin: 5%;
+			border: 1px solid #ccc;
+			text-align: center;
+			padding: 2%;
+			font-size: 1.4em;
+			color: #7d7d7d;
+			text-decoration: none;
+		}
+		
+		span.readmore a:hover {
+			background-color: #7cb029;
+			color: #fff;
+		}
+		
+		
 
 /*-------MENU SWITCH----------*/
 .switch {
